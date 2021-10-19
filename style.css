@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    background: linear-gradient(#00b5b8 30%, #00b853 70%);
+	text-align: center;
+}
+
+.profile {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: aquamarine;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.83;
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#bio {
+    text-align: center;
+    font-size: 40px;
+	text-decoration:none;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 250px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.2;
+    margin: 25px auto;
+    max-width: 1.3;
+}
+.menu{
+    font-family: sans-serif; 
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    float:left;
+    color: white;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Scheherazade New', serif;
+}
+.links:hover{
+    background-color: black;
+    font-size: 35px;
+    font-family:fantasy;
+}
+a{
+	text-decoration:none;
+}
+.article:hover{
+	color:fuchsia;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+.arrow{
+	position: fixed;
+	bottom: 30px;
+	right:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
